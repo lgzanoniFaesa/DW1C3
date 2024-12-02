@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação de Cores</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .color-list {
+            margin: 20px auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+            width: 300px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Jogo de Adivinhação de Cores</h1>
+    <p>Estou pensando em uma das cores abaixo:</p>
+    <div id="color-list" class="color-list"></div>
+    <p>Que cor estou pensando?</p>
+    <input type="text" id="color-input" placeholder="Digite uma cor">
+    <button id="submit-btn">Adivinhar</button>
+    <p id="hint"></p>
+    <script src="script.js"></script>
+</body>
+
+</html>
